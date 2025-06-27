@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">MyBrand</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Welcome to My Landing Page</h1>
+        <p>Your solution for modern, responsive web design.</p>
+        <a href="#features" class="btn">Learn More</a>
+    </section>
+
+    <section class="features" id="features">
+        <h2>Features</h2>
+        <div class="feature-box">
+            <div class="feature">
+                <h3>Responsive</h3>
+                <p>Looks great on all devices.</p>
+            </div>
+            <div class="feature">
+                <h3>Fast</h3>
+                <p>Optimized for speed and performance.</p>
+            </div>
+            <div class="feature">
+                <h3>Customizable</h3>
+                <p>Easy to tweak and adapt.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 MyBrand. All rights reserved.</p>
+    </footer>
+
+    <script src="Task1.js"></script>
+</body>
+</html>
